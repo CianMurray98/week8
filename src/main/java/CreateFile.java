@@ -12,8 +12,8 @@ public class CreateFile {
             String content = "Details to Write:";
             try{
                 FileWriter myWriter = new FileWriter(myFile, true);
-                myWriter.write("hhh\n");
-                myWriter.write("ggg\n");
+                myWriter.write("hhh \n");
+                myWriter.write("ggg \n");
                 myWriter.close();
             } catch(IOException e){
                 e.printStackTrace();
